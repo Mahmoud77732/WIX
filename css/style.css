@@ -1,0 +1,120 @@
+/* body{
+    background-color: gray;
+} */
+.logo{
+    font-family: 'Playfair Display', serif;
+    font-size: 35px;
+    font-weight: 500;
+}
+.primaryHover{
+    margin: 0px 5px;
+}
+.primaryHover:hover{
+    color: #0275d8 !important;
+}
+.purColor{
+   background-color: #aa4dc8;
+   border-color: #aa4dc8;
+   color: #fff !important;
+}
+.purColor:hover{
+    background-color: #d584f0;
+   border-color: #d584f0;
+   color: #fff !important;
+ }
+ .heading{
+     background-color: #e8eaff;
+ }
+ .box{
+     transform: translateY(-100%);  
+ }
+ .linkLine{
+     text-decoration: none;
+ }
+
+ /* ******************************************************************* MOST POPULAR*/
+ .table{
+     background-color: transparent;
+ }
+
+ .samllLine{
+     width: 25px;
+     height: 2.33px;
+     background-color: #e8eaff;
+     margin-bottom: 15px;
+ }
+ .par{
+    color:#162D3D; font-size: 14px; font-weight: 400;
+ }
+
+ th{
+     font-weight: normal;
+ }
+.posBox{
+    position: relative;
+}
+ .box1{
+     position: absolute;
+    color: #aa4dc8; font-size: 12px;  width: 120px; padding: 3px; font-weight: 500;
+    top: -6%;
+    left: 25%;
+    /* transform: translate(50%,50%); */
+ }
+ /* ------------------------------------------------------------------------------- Complete eCommerce Platform*/
+ .ppp:hover{
+    color: #0275d8;
+    cursor: pointer;
+    }
+    .longLine{
+        height: 2px;
+        background-color: #e8eaff;
+    }
+    .btn1{
+        border-color:#e8eaff;
+    }
+    .btn1:hover{
+        color: #fff;
+        background-color: #0275d8 !important;
+    }
+    .position-rel{
+        position: relative;
+    }
+
+    .cont{
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        top:-35px;
+    }
+    .pargraph{
+        font-size: 12px;
+        color: #32536A;
+    }
+  .ul{
+list-style: none;
+  }
+  .verticalLine{
+      height: 30px;
+      width: 2px;
+      background-color: #e8eaff;
+  }
+ /* _____________________________________footer */
+ .footer{
+     background-color: #f3f6f9;
+ }
+ .list-group-item{
+     background-color: transparent;
+     cursor: pointer;
+     font-size: 17px;
+     font-weight: 500;
+ }
+ .list-group-item:hover{
+color: #0275d8;
+cursor: pointer;
+}
+.list-group-item:hover .nochange{
+    color: #000;
+    }
+
+
+ 
