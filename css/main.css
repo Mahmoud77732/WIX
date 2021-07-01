@@ -1,0 +1,808 @@
+
+/*************************************************/
+/*? header {navbar + home} */
+
+.header{
+    width: 100%;
+    /* height: 100vh; */
+}
+
+.navbar{
+    height: 10%;
+    z-index: 9999;
+    overflow: hidden;
+    top: 0;
+    background-color: white;
+}
+
+.navbar *{
+    padding-left: 8px;
+}
+
+.navbar .navbar-brand{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.line{
+    background-color: gray;
+    width: 2px;
+    height: 30px;
+    position: absolute;
+    left: 36%;
+    top: 25px;
+    padding: 0;
+}
+
+.navbar .navbar-btn{
+    padding: 8px 38px;
+    border-radius: 100px;
+}
+
+.home{
+    width: 100%;
+    /* height: 1000px; */
+    position: relative;
+    top: 55px;
+}
+
+.home-caption{
+    width: 40%;
+    margin: auto;
+    text-align: center;
+}
+
+.home .home-caption h1{
+    font-size: 80px;
+    font-weight: 700;
+    margin-top: 60px;
+}
+
+.home .home-caption p{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.home .home-caption a{
+    padding: 12px 48px;
+    border-radius: 100px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.home .home-images{
+    width: 85%;
+    margin: auto;
+    margin-top: 50px;
+    margin-left: 55px;
+}
+
+.home .home-images .img-1{
+    width: 20%;
+    position: absolute;
+    top: 90px;
+    left: 30px;
+    z-index: 3;
+}
+
+.home .home-images .img-2{
+    width: 100%;
+    position: relative;
+    right: 35px;
+}
+
+.home .home-images .img-3{
+    width: 20%;
+    position: absolute;
+    right: 190px;
+    z-index: 3;
+}
+
+.home .home-images .img-4{
+    width: 20%;
+    position: absolute;
+    /* left: 120px; */
+    left: 50px;
+    top: 100px;
+    z-index: 1;
+    transition: all 3s;
+    opacity: 0;
+}
+
+.home .home-images .img-5{
+    width: 20%;
+    position: absolute;
+    /* right: 60px;  */
+    right: -100px;
+    bottom: 85px;
+    transition: all 3s;
+    opacity: 0;
+}
+
+.home .info{
+    background-color: rgb(20, 52, 142);
+    width: 100%;
+    height: 500px;
+    position: relative;
+    top: -130px;
+    z-index: -10;
+}
+
+
+.home .info h2{
+    font-size: 40px;
+    font-weight: 400;
+}
+
+.home .info p{
+    font-size: 18px;
+    margin-top: 15px;
+}
+
+.home .info a{
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+}
+
+.home .info .after{
+    width: 130px;
+    height: 3px;
+    background-color: white;
+    position: relative;
+    top: 5px;
+}
+
+.home .info i{
+    position: relative;
+    left: 140px;
+    bottom: 32px;
+    font-size: 30px;
+}
+
+/*************************************************/
+/*? about  */
+
+.about{
+    width: 100%;
+    height: 1000px;
+    position: relative;
+    bottom: 75px;
+}
+
+.about .half1{
+    width: 50%;
+    height: 100%;
+    background-color: rgb(3, 89, 70);
+    float: left;
+}
+
+.about .half2{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.about .half1-container{
+    width: 75%;
+    margin: auto;
+}
+
+.about .half1-container h2{
+    margin-top: 80px;
+    margin-left: 10px;
+    font-size: 60px;
+    font-weight: 600;
+}
+
+.about .half1-container span{
+    font-size: 20px;
+    margin-left: 15px;
+}
+
+.about .half1-content{
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+
+.about .line1{
+    background-color: white;
+    width: 270px;
+    height: 1px;
+    margin-top: 50px;
+}
+
+.about h3{
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.about p{
+    margin-top: 10px;
+}
+
+.about a{
+    margin-left: 12px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
+}
+
+.about a i{
+    position: relative;
+    left: 115px;
+    bottom: 25px;
+    font-size: 30px;
+}
+
+.about a div{
+    position: relative;
+    left: 12px;
+    top: 3px;
+    width: 90px;
+    height: 2px;
+    background-color: white;
+}
+
+.about .half2 .half2-1{
+    width: 100%;
+    height: 50%;
+    background-color: rgba(244, 244, 244, 0.431);
+}
+
+.about .half2 .half2-2{
+    width: 100%;
+    height: 50%;
+    background-color: rgba(244, 244, 244, 0.931);
+}
+
+.about .half2 .half2-2 img{
+    position: relative;
+    left: 150px;
+    bottom: 180px;
+}
+
+/*************************************************/
+/*? templates  */
+
+.templates{
+    width: 100%;
+    height: 1100px;
+    background-color: rgb(244, 244, 244);
+    position: relative;
+    bottom: 75px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.templates .caption{
+    width: 30%;
+    height: 250px;
+    margin: auto;
+    margin-top: 130px;
+}
+
+.templates h2{
+    font-size: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+.templates p{
+    font-size: 18px;
+}
+
+.templates a{
+    color: black;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.templates a div{
+    width: 230px;
+    height: 2px;
+    position: relative;
+    left: 122px;
+    background-color: black;
+}
+
+.templates a i{
+    color: black;
+    font-size: 25px;
+    position: relative;
+    left: 130px;
+    bottom: 27px;
+}
+
+.templates img{
+    margin-top: 40px;
+}
+
+.templates .container span{
+    position: relative;
+    bottom: 10px;
+    font-weight: 700;
+}
+
+
+/*************************************************/
+/*? features  */
+
+.features{
+    width: 100%;
+    height: 4100px;
+    position: relative;
+    bottom: 75px;
+    overflow: hidden;
+}
+
+.features .part1{
+    margin-top: 120px;
+    margin-bottom: 230px;
+}
+
+.features .part1 h2{
+    font-size: 55px;
+    font-weight: 500;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.features .part1 p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.features .part1 a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.features .part1 a div{
+    width: 110px;
+    height: 2px;
+    background-color: black;
+}
+
+.features .part1 a i{
+    position: relative;
+    left: 115px;
+    bottom: 30px;
+}
+
+/* ---------------------------------------------- */
+
+.features .part2{
+    margin-bottom: 250px;
+}
+
+.features .part2 h2{
+    font-size: 45px;
+    font-weight: 700;
+    margin-top: 50px;
+    margin-bottom: 30px;
+}
+
+.features .part2 p{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.features .part2 a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.features .part2 a div{
+    width: 110px;
+    height: 2px;
+    background-color: black;
+}
+
+.features .part2 a i{
+    position: relative;
+    left: 115px;
+    bottom: 30px;
+}
+
+.features .part2 .mySpan{
+    font-size: 20px;
+    font-weight: 600;
+    position: relative;
+    top: 150px;
+}
+
+.features .afterSpan{
+    background-color: black;
+    width: 650px;
+    height: 1px;
+    position: relative;
+    top: 140px;
+    left: 395px;
+}
+
+/* ---------------------------------------------- */
+
+.features .part3{
+    margin-bottom: 250px;
+}
+
+.features .part3 h2{
+    font-size: 50px;
+    font-weight: 600;
+    width: 65%;
+    margin-bottom: 70px;
+}
+
+.features .part3 .content{
+    margin-bottom: 100px;
+}
+
+.features .part3 .content h4{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.features .part3 .content p{
+    width: 60%;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.features .part3 .content a{
+    color: blue;
+    margin-left: 12px;
+    float: left;
+}
+
+.features .part3 .content .line{
+    width: 1px;
+    height: 15px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    background-color: blue;
+    float: left;
+}
+
+.features .part3 .content2{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.features .part3 .content2 h4{
+    font-size: 25px;
+    font-weight: 600;
+    margin-left: 5px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+.features .part3 .content2 p{
+    width: 60%;
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.features .part3 .content2 a{
+    color: blue;
+    margin-left: 12px;
+    float: left;
+}
+
+.features .part3 .content2 .line{
+    width: 1px;
+    height: 15px;
+    position: relative;
+    top: 5px;
+    left: 5px;
+    background-color: blue;
+    float: left;
+}
+
+
+
+/*************************************************/
+/*? manage  */
+
+.manage{
+    width: 100%;
+    background-color: rgb(244, 244, 244);
+    overflow: hidden;
+}
+
+.manage .caption{
+    width: 80%;
+    margin: auto;
+}
+
+.manage .caption h2{
+    width: 70%;
+    margin-top: 250px;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.manage .caption p{
+    width: 75%;
+    margin-top: 50px;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+
+.manage .caption a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.manage .caption a div{
+    width: 110px;
+    height: 2px;
+    background-color: black;
+}
+
+.manage .caption a i{
+    position: relative;
+    left: 115px;
+    bottom: 30px;
+}
+
+/*************************************************/
+/*? steps  */
+
+.steps{
+    width: 100%;
+    height: 750px;
+    background-color: rgb(20, 52, 142);
+    color: white;
+    overflow: hidden;
+}
+
+.steps .myContainer{
+    width: 45%;
+    margin: auto;
+    text-align: left;
+}
+
+.steps h2{
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 130px;
+    margin-bottom: 20px;
+}
+
+.steps span{
+    display: block;
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.steps p{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 15px;
+    margin-left: 40px;
+}
+
+.steps a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 20px;
+}
+
+.steps .link1 a div{
+    width: 110px;
+    height: 2px;
+    background-color: white;
+    margin-left: 20px;
+}
+
+.steps .link2 a div{
+    width: 300px;
+    height: 2px;
+    background-color: white;
+    margin-left: 20px;
+}
+
+.steps .link1 a i{
+    position: relative;
+    left: 130px;
+    bottom: 30px;
+}
+
+.steps .link2 a i{
+    position: relative;
+    left: 320px;
+    bottom: 30px;
+}
+
+.steps .link1{
+    float: left; 
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.steps .link2{
+    float: left; 
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+/*************************************************/
+/*? whyUs  */
+
+.whyUs{
+    width: 100%;
+    height: 800px;
+    /* background-color: salmon; */
+}
+
+.whyUs .half1 h2{
+    margin-top: 150px;
+    font-size: 50px;
+    font-weight: 600;
+    width: 70%;
+}
+
+.whyUs .half2 p{
+    margin-top: 150px;
+    font-size: 22px;
+    font-weight: 400;
+    width: 95%;
+}
+
+.whyUs a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 700;
+    margin-left: 0px;
+}
+
+.whyUs a div{
+    width: 110px;
+    height: 2px;
+    background-color: black;
+    margin-left: 0px;
+}
+
+.whyUs a i{
+    position: relative;
+    left: 120px;
+    bottom: 30px;
+}
+
+/*************************************************/
+/*? explore  */
+
+.explore{
+    width: 100%;
+    height: 750px;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+}
+
+.explore .caption{
+    width: 80%;
+    margin: auto;
+}
+
+.explore .caption h2{
+    font-size: 50px;
+    font-weight: 500;
+    margin-top: 200px;
+}
+
+.explore .caption p{
+    font-size: 20px;
+    font-weight: 400;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.explore .line{
+    width: 2px;
+    height: 800px;
+    position: relative;
+    background-color: white;
+    top: -585px;
+    left: 450px;
+}
+
+.explore a{
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 700;
+    margin-left: 0px;
+    color: white;
+}
+
+.explore a div{
+    width: 195px;
+    height: 2px;
+    background-color: white;
+    margin-left: 0px;
+}
+
+.explore a i{
+    position: relative;
+    left: 200px;
+    bottom: 35px;
+}
+
+.explore .content{
+    margin-top: 60px;
+}
+.explore .content a{
+    font-size: 18px;
+}
+
+/*************************************************/
+/*? FAQ  */
+
+.FAQ{
+    width: 100%;
+    /* height: 1000px; */
+    overflow: hidden;
+}
+
+.FAQ h2{
+    font-size: 50px;
+    font-weight: 600;
+    margin-top: 150px;
+    margin-bottom: 50px;
+}
+
+.FAQ .line{
+    width: 100%;
+    height: 2px;
+    background-color: black;
+    position: relative;
+    left: 10px;
+    margin-bottom: 80px;
+}
+
+.FAQ .p1{
+    float: left;
+}
+
+.FAQ .p2{
+    float: left;
+}
+
+/*************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
